@@ -153,4 +153,5 @@ def chat():
 
 if __name__ == '__main__':
     # You can change the port if needed
-    app.run(host='0.0.0.0', port=9999, debug=False)
+
+    app.run(host='0.0.0.0', port=80, debug=False)
